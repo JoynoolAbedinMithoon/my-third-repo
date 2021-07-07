@@ -6,155 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            margin: 0px;
+        section{
+            display: flex;
+            margin-top: 100px;
         }
-        span{
-            display: inline-block;
-            width: 100px;
-            height: 100px;
-            color: black;
-            background-color: orange;
-            margin-right: 20px;
+        div div{
+            padding-top: 100px;
+            padding-left: 300px;
         }
-        h1:hover {
-            color: tomato;
+        .width img{
+            width: 400px;
+            height: 400px;
+            padding-left: 50px;
         }
-        .middle:focus{
-            color: cornflowerblue;
+        .width{
+            width: 50%;
+        }
+        div a{
+            text-decoration: none;
+            color: white;
             font-weight: 700;
+            background-image: linear-gradient(orange, tomato);
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 10px 10px 40px gray;
         }
-        li:first-child{
-            color: chocolate;
+        a:hover{
+            background-image: linear-gradient(green, white);
+            color: white;
         }
-        img{
-            width: 200px;
-            height: 200px;
+        .image{
+            width: 100%;
+            text-align: center;
         }
         #two{
-            position: fixed;
-            left: 0px;
-            top: 100px;
+            position: relative;
+            margin-top: 50px;
+            z-index: 1;
         }
     </style>
 </head>
 <body>
+    <section>
+        <div class="width">
+            <div>
+                <h1>Mithoon Ahmed</h1>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates pariatur iusto magnam? Tempora velit porro totam nesciunt enim quasi inventore soluta, necessitatibus unde aliquid assumenda illum, eius dolores vero laudantium doloremque, repudiandae minus. Vitae aliquid, sit beatae sint ex mollitia.</p>
+                <a id="anchor" target="_blank" href="">google</a>
+            </div>
+        </div>
+        <div class="width">
+            <img src="food-one.jpg" alt="">
+        </div>
+    </section>
+    <section>
+        <div class="image">
+            <img style="width: 300px; height: 300px; padding-right: 50px;" src="food-one.jpg" alt="">
+            <img style="width: 300px; height: 300px; padding-right: 50px;" src="food-two.jpg" alt="">
+            <img style="width: 300px; height: 300px;" src="food-three.png" alt="">
+        </div>
+    </section>
     <div>
-        <span>meddfvd</span><span>dsfvdfvfv</span><span>vsdfvsdfvsdfv</span>
+        <img style="width: 300px; height: 300px;" src="food-one.jpg" alt="">
+        <img id="two" style="width: 300px; height: 300px;" src="food-two.jpg" alt="">
+        <img style="width: 300px; height: 300px;" src="food-three.png" alt="">
     </div>
-    <h1>This is normal</h1>
-    <input class="middle" type="text">
-    <br>
-    <ul>
-        <li>first</li>
-        <li>second</li>
-        <li>third</li>
-        <li>fourth</li>
-        <li>fifth</li>
-        <li>sixth</li>
-    </ul>
-    <section>
-        <img id="one" src="food-one.jpg" alt="">
-        <img id="two" src="food-two.jpg" alt="">
-        <img id="three" src="food-three.png" alt="">
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-    </section>
-    <section>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-        <ul>
-            <li>first</li>
-            <li>second</li>
-            <li>third</li>
-            <li>fourth</li>
-            <li>fifth</li>
-            <li>sixth</li>
-        </ul>
-    </section>
+    <audio src="" controls></audio>
 </body>
 </html>
